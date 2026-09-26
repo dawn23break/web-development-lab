@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатори 02: Хэрэглэгчийн анкет</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Анкет</h1>
+        </center>
+        <fieldset>
+            <table>
+            <tr>
+                <td>
+                    <legend>Хувийн мэдээлэл</legend>
+                    <p>Нэр: Я.Очирбат</p>
+                    <p>Төрсөн он сар өдөр: 2006.01.08</p>
+                    <p>Хүйс: Эрэгтэй</p>
+                    <p>Утасны дугаар: 88833008</p>
+                    <p>И-мэйл хаяг: B231875042@must.edu.mn</p>
+                    <p>Мэдээлэл холбоо технологийн их сургуулийн сурагч</p>
+                </td>
+                    <td>
+                        <img src="100902.jpg" alt="picture" width="190" height="240">
+                    </td>
+                </tr>
+            </table> 
+        </fieldset>
+    </header>
+
+    <main>
+        <h2>Хувийн мэдээлэл</h2>
+        <h3>Боловсролын түүх</h3>
+        <table border="1">
+            <tr>
+                <th>Он</th>
+                <th>Сургууль</th>
+            </tr>
+            <tr>
+                <td>2011 - 2012</td>
+                <td>20-р сургууль</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td>5-р сургууль</td>
+            </tr>
+            <tr>
+                <td>2014 - 2017</td>
+                <td>20-р сургууль</td>
+            </tr>
+            <tr>
+                <td>2018 - 2021</td>
+                <td>Olonlog.exe сургууль</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Мандах их сургуулийн лицэй сургууль</td>
+            </tr>
+            <tr>
+                <td>2012 - 2022</td>
+                <td>Монголын хүүхдийн их сургууль</td>
+            </tr>
+        </table>
+        <hr>
+        <details>
+            <summary>Миний сонирхол</summary>
+            <p>Миний сонирхол бол ном уншиж, сонгодог хөгжим сонсох, барилга байшингийн зураг зурах, код бичих, байгалийн зураг зурах юм.</p>
+        </details>
+        <details>
+            <summary>Миний аялсан газар</summary>
+            <p>Би Орос, Хятад, Солонгос, Япон болон Монголынхоо байгалийн үзэсгэлэнт газруудаар аялаж байсан.</p>
+        </details>
+        <details>
+            <summary>Шагналууд</summary>
+            <p>Би Хүүхдийн Ордоны алтан медаль, Олон улсын ардын урлагийн наадмын алтан мөнгөн медаль, Мандах их сургуулийн бүтээлч сэтгэлгээ уралдаанд 2-р байранд орж байсан.</p>
+        </details>
+    </main>
+
+    <footer>
+        <form>
+            <h3>Cанал сэтгэгдэл үлдээх хэсэг</h3>
+            <textarea name="comment" rows="6" cols="100" placeholder="Санал сэтгэгдлээ энд бичнэ үү..."></textarea>
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="И-мэйл хаягаа энд бичнэ үү..." required>
+            <br>
+            <br>
+            <input type="tel" name="phone" pattern="[0-9]{8}" placeholder="Утасны дугаараа энд бичнэ үү..." required>
+            <br>
+            <br>
+            <input type="submit" value="Илгээх">
+        </form>
+    </footer>
+</body>
+</html>
