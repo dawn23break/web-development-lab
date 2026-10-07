@@ -1,0 +1,145 @@
+
+body{
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+.login_text{
+    margin-top: 400px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.login_button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1045a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+.anket{
+    text-align: center;
+}
+.zurag{
+    margin-left: 70px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.garchig1{
+    margin-left: 20px;
+}
+fieldset{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.ital{
+    font-style: italic;
+}
+main{
+    margin-left: 20px;
+}
+.box{
+    display: block;
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+.box td{
+    padding: 0 19px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -115px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext,
+.tooltip:focus-visible .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+footer {
+    margin: 30px 20px;
+}
+.feedback-form {
+    max-width: 700px;
+    padding: 22px;
+    background-color: #f5f7fa;
+    border: 1px solid #d8dee8;
+    border-radius: 8px;
+}
+.feedback-form h3 {
+    margin-top: 0;
+    color: #26364a;
+}
+.feedback-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.feedback-form textarea,
+.feedback-form input:not([type="submit"]) {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5ccd6;
+    border-radius: 5px;
+    font: inherit;
+}
+.feedback-form textarea {
+    display: block;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.feedback-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+.feedback-form input[type="submit"] {
+    padding: 9px 20px;
+    color: white;
+    background-color: #315b8a;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+.feedback-form input[type="submit"]:hover {
+    background-color: #24466e;
+}
+@media (max-width: 600px) {
+    .feedback-fields {
+        grid-template-columns: 1fr;
+    }
+}
