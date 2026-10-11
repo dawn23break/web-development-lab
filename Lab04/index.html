@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мандах-Нар – Хэрэгцээний бүх барааг нэг дороос</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a href="#" class="logo">Мандах-Нар дэлгүүр</a>
+    <nav class="nav">
+      <a href="#categories">Барааны төрөл</a>
+      <a href="#products">Бараанууд</a>
+      <a href="#about">Бидний тухай</a>
+    </nav>
+ 
+    <div class="header-actions">
+      <input type="search" class="search" placeholder="Search products" aria-label="Search products">
+      <a href="#" class="cart-link">Сагс 🛒 <span class="cart-count">0</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="flex">
+      <div class="flex-text">
+        <h1>Хэрэгцээний бүх барааг нэг дороос.</h1>
+        <p>Хүссэн бараагаа бөөний үнээр худалдан аваарай.</p>
+        <a href="#products" class="btn btn-primary">Бүх барааг харах</a>
+      </div>
+      <div class="flex-visual" aria-hidden="true">🛍️</div>
+    </section>
+ 
+    <!-- Edgeer Emoginuudiig https://emojipedia.org oos awsan. -->
+    <section class="section" id="categories">
+      <h2>Барааны төрөл</h2>
+      <div class="category-grid">
+        <a href="#" class="category kitchen"><span class="cat-icon">🍳</span>Гал тогоо</a>
+        <a href="#" class="category desk"><span class="cat-icon">✏️</span>Бичгийн хэрэгсэл</a>
+        <a href="#" class="category home"><span class="cat-icon">🕯️</span>Гэр ахуй</a>
+        <a href="#" class="category outdoor"><span class="cat-icon">🎒</span>Хэрэглээний бараа</a>
+      </div>
+    </section>
+ 
+    <section class="section" id="products">
+      <div class="section-head">
+        <h2>Эрэлттэй бараа</h2>
+        <a href="#" class="text-link">Бүгдийг харах</a>
+      </div>
+ 
+      <div class="product-grid">
+ 
+        <article class="product-card">
+          <div class="product-image img-1">☕</div>
+          <div class="product-info">
+            <h3>Шаазан аяга</h3>
+            <p class="product-desc">350ml багтаамжтай. Япон брендийн аяга.</p>
+            <div class="product-bottom">
+              <span class="price">35000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-2">📓</div>
+          <div class="product-info">
+            <h3>Тэмдэглэлийн дэвтэр</h3>
+            <p class="product-desc">120 Хуудастай, Зузаан хавтастай, Тууш шугамтай.</p>
+            <div class="product-bottom">
+              <span class="price">14000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-3">🕯️</div>
+          <div class="product-info">
+            <h3>Тайвшруулах үнэртэй лаа</h3>
+            <p class="product-desc">Сарнайн анхилуун үнэртэй лаа.</p>
+            <div class="product-bottom">
+              <span class="price">24000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-4">🎒</div>
+          <div class="product-info">
+            <h3>Цүнх</h3>
+            <p class="product-desc">Мөрөндөө зөөлөвчтэй, усны хамгаалалттай цүнх.</p>
+            <div class="product-bottom">
+              <span class="price">68000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-5">🔪</div>
+          <div class="product-info">
+            <h3>Гал тогооны хутга</h3>
+            <p class="product-desc">25 см урттай, ган материалаар хийгдсэн.</p>
+            <div class="product-bottom">
+              <span class="price">52000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-6">🌱</div>
+          <div class="product-info">
+            <h3>Цэцгийн ваар</h3>
+            <p class="product-desc">Гараар урласан бор өнгийн шавар ваар</p>
+            <div class="product-bottom">
+              <span class="price">29000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-7">💡</div>
+          <div class="product-info">
+            <h3>Гэрлийн ламп</h3>
+            <p class="product-desc">Тод өнгийн гэрлийн ламп</p>
+            <div class="product-bottom">
+              <span class="price">45000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+ 
+        <article class="product-card">
+          <div class="product-image img-8">🧺</div>
+          <div class="product-info">
+            <h3>Сагс</h3>
+            <p class="product-desc">Дахин боловсруулагдсан сагс.</p>
+            <div class="product-bottom">
+              <span class="price">32000₮</span>
+              <button class="btn btn-small">Сагсанд хийх</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="perks" id="about">
+      <div class="perk">
+        <strong>Хүргэлт үнэгүй</strong>
+        <span>50,000₮-с дээш захиалгуудад</span>
+      </div>
+      <div class="perk">
+        <strong>30-хоног дотроо буцаах боломжтой</strong>
+        <span>Асуулт асуухгүй</span>
+      </div>
+      <div class="perk">
+        <strong>Баталгаат төлбөр</strong>
+        <span>Картууд болон хөргүүдийг хүлээн авна</span>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">Мандах Нар</a>
+        <p>Хэрэгцээний бүх барааг нэг дороос.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Төрөл</h4>
+        <a href="#">Гал тогоо</a>
+        <a href="#">Бичгийн хэрэгсэл</a>
+        <a href="#">Гэр ахуй</a>
+        <a href="#">Хэрэглээний</a>
+      </div>
+      <div class="footer-col">
+        <h4>Тусламж</h4>
+        <a href="#">Хүргэлт</a>
+        <a href="#">Буцаалт</a>
+        <a href="#">Холбоо барих</a>
+      </div>
+      <form class="footer-col newsletter" onsubmit="return false">
+        <h4>Gmail-ээр шинэ барааг мэдэгдэх</h4>
+        <div class="newsletter-row">
+          <input type="email" placeholder="you@example.com" aria-label="Email address">
+          <button class="btn btn-small">Дагах</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
+ 
